@@ -1,12 +1,9 @@
-Claro, preparei um README.md completo e bem estruturado para o seu projeto, seguindo sua instrução de não incluir os passos para download e apenas fornecer o link para o repositório.
 
-Você pode copiar e colar o texto abaixo diretamente em um arquivo chamado README.md na pasta do seu projeto.
 
-Clone da Página de Lançamento - Estilo Monstercat
+## Clone da Página de Lançamento - Estilo Monstercat
 Este projeto é uma recriação visual da página de lançamento de álbuns do site Monstercat, especificamente inspirada na página do álbum "LEVEL DAYS" do artista Conro. O objetivo foi replicar o design moderno e focado em mídia utilizando apenas HTML e CSS puros, demonstrando habilidades de front-end na estruturação e estilização de páginas web.
 
-🖼️ Visualização
-✨ Funcionalidades
+## ✨ Funcionalidades
 Layout Responsivo: A página se adapta perfeitamente a telas de desktops, tablets e celulares.
 
 Design Fiel: Tema escuro e paleta de cores inspirados na identidade visual do Monstercat.
@@ -17,7 +14,7 @@ Componentes Interativos: Efeitos de hover em botões, links e na lista de faixas
 
 Ícones Dinâmicos: Utilização da biblioteca Font Awesome para os ícones das plataformas de streaming e de reprodução.
 
-🚀 Tecnologias Utilizadas
+## 🚀 Tecnologias Utilizadas
 HTML5: Para a estruturação e marcação do conteúdo.
 
 CSS3: Para toda a estilização visual, utilizando:
@@ -33,11 +30,11 @@ Font Awesome: Para a biblioteca de ícones.
 Google Fonts: Para a tipografia (família de fontes "Poppins").
 
 
-➡️ Link  do Projeto ⬅️
+## ➡️ Link  do Projeto ⬅️
 
 [Substitua o link acima pelo link real do seu repositório no GitHub.](https://danielsoares30.github.io/MusicaSpotify/)
 
-🔧 Como Personalizar
+## 🔧 Como Personalizar
 O projeto foi criado para ser facilmente adaptado para qualquer outro álbum ou artista.
 
 Conteúdo do Álbum: Abra o arquivo index.html e altere o nome do artista, título do álbum e a lista de faixas (<ol>).
@@ -48,5 +45,3 @@ Links de Streaming: Ainda no index.html, substitua os links (href) nas tags <a> 
 
 Paleta de Cores: Para mudar as cores, edite as variáveis no início do arquivo style.css, dentro do seletor :root.
 
-📜 Licença
-Este projeto está sob a licença MIT.
