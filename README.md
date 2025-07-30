@@ -37,7 +37,7 @@ https://danielsoares30.github.io/MusicaSpotify/
 ## 🔧 Como Personalizar
 O projeto foi criado para ser facilmente adaptado para qualquer outro álbum ou artista.
 
-Conteúdo do Álbum: Abra o arquivo index.html e altere o nome do artista, título do álbum e a lista de faixas (<ol>).
+Conteúdo do Álbum: Abra o arquivo index.html e altere o nome do artista, título do álbum e a lista de faixas.
 
 Arte da Capa: No mesmo arquivo, troque a URL da imagem na tag <img class="album-art">.
 
