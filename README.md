@@ -34,14 +34,3 @@ Google Fonts: Para a tipografia (família de fontes "Poppins").
 
 https://danielsoares30.github.io/MusicaSpotify/
 
-## 🔧 Como Personalizar
-O projeto foi criado para ser facilmente adaptado para qualquer outro álbum ou artista.
-
-Conteúdo do Álbum: Abra o arquivo index.html e altere o nome do artista, título do álbum e a lista de faixas.
-
-Arte da Capa: No mesmo arquivo, troque a URL da imagem na tag <img class="album-art">.
-
-Links de Streaming: Ainda no index.html, substitua os links (href) nas tags <a> para direcionar às suas plataformas.
-
-Paleta de Cores: Para mudar as cores, edite as variáveis no início do arquivo style.css, dentro do seletor :root.
-
