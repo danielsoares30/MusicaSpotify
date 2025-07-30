@@ -1,0 +1,226 @@
+/* ---- Configurações Globais e Variáveis de Cor ---- */
+:root {
+    --background-dark: #101010;
+    --card-dark: #181818;
+    --text-primary: #ffffff;
+    --text-secondary: #b3b3b3;
+    --accent-color: #1ed760; /* Verde estilo Spotify/Monstercat */
+    --hover-light: #282828;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background-dark);
+    color: var(--text-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ---- Container Principal ---- */
+.release-container {
+    display: flex;
+    max-width: 1100px;
+    width: 100%;
+    gap: 40px;
+    background-color: var(--card-dark);
+    padding: 30px;
+    border-radius: 12px;
+}
+
+/* ---- Coluna da Esquerda: Arte do Álbum ---- */
+.album-art {
+    flex-basis: 40%;
+    min-width: 300px;
+}
+
+.album-art img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+
+/* ---- Coluna da Direita: Detalhes do Álbum ---- */
+.album-details {
+    flex-basis: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.album-details .release-type {
+    font-weight: 700;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+}
+
+.album-details h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 10px 0 5px;
+}
+
+.album-details h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    margin-bottom: 25px;
+}
+
+/* ---- Botão Principal (Call to Action) ---- */
+.cta-button {
+    background-color: var(--accent-color);
+    color: var(--text-primary);
+    font-weight: 600;
+    font-size: 1rem;
+    border: none;
+    border-radius: 50px;
+    padding: 15px 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    width: 100%;
+    max-width: 320px;
+}
+
+.cta-button:hover {
+    transform: scale(1.05);
+    background-color: #25e06a;
+}
+
+.cta-button .fa-play {
+    font-size: 0.9rem;
+}
+
+/* ---- Links de Streaming ---- */
+.streaming-links {
+    margin-top: 30px;
+}
+
+.streaming-links p {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
+
+.streaming-links .icons {
+    display: flex;
+    gap: 20px;
+}
+
+.streaming-links .icons a {
+    color: var(--text-secondary);
+    font-size: 2rem;
+    transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.streaming-links .icons a:hover {
+    color: var(--text-primary);
+    transform: scale(1.1);
+}
+
+/* ---- Lista de Faixas ---- */
+.tracklist {
+    margin-top: 30px;
+    border-top: 1px solid var(--hover-light);
+    padding-top: 20px;
+}
+
+.tracklist h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.tracklist ol {
+    list-style: none;
+}
+
+.track-item a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 10px;
+    border-radius: 5px;
+    margin-bottom: 2px;
+    transition: background-color 0.2s ease;
+}
+
+.track-item a:hover {
+    background-color: var(--hover-light);
+}
+
+.track-item .track-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.track-item .track-play-icon {
+    color: var(--text-secondary);
+    font-size: 0.8rem;
+    width: 16px; /* Garante alinhamento consistente */
+    text-align: center;
+}
+
+.track-item a:hover .track-play-icon {
+    color: var(--text-primary);
+}
+
+.track-item .track-title {
+    font-weight: 500;
+}
+
+.track-item .track-duration {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+
+/* ---- Responsividade para Telas Menores (Celulares) ---- */
+@media (max-width: 768px) {
+    body {
+        padding: 1rem;
+    }
+    
+    .release-container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .album-art {
+        min-width: unset;
+        width: 100%;
+        max-width: 350px; /* Limita o tamanho da arte em telas pequenas */
+        margin: 0 auto; /* Centraliza a arte */
+    }
+
+    .album-details h1 {
+        font-size: 2rem;
+    }
+
+    .album-details h2 {
+        font-size: 1.5rem;
+    }
+
+    .cta-button {
+        max-width: 100%; /* Botão ocupa a largura toda */
+    }
+}
