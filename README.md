@@ -32,7 +32,7 @@ Google Fonts: Para a tipografia (família de fontes "Poppins").
 
 ## ➡️ Link  do Projeto ⬅️
 
-[Substitua o link acima pelo link real do seu repositório no GitHub.](https://danielsoares30.github.io/MusicaSpotify/)
+https://danielsoares30.github.io/MusicaSpotify/
 
 ## 🔧 Como Personalizar
 O projeto foi criado para ser facilmente adaptado para qualquer outro álbum ou artista.
